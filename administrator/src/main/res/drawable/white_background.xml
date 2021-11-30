@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <style android:name="white_background">
+        <item android:name="android:background">@android:color/white</item>
+        <item android:name="android:layout_marginTop">@dimen/margin_top</item>
+        <item android:name="android:layout_marginBottom">@dimen/margin_top</item>
+        <item android:name="android:padding">@dimen/padding</item>
+    </style>
+</selector>

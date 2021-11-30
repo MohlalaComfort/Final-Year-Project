@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <style android:name="text_large">
+        <item android:name="android:textColor">@android:color/background_dark</item>
+        <item android:name="android:textSize">@dimen/text_size_large</item>
+        <item android:name="android:shadowDy">1.0</item>
+        <item android:name="android:shadowRadius">1</item>
+        <item android:name="android:shadowColor">#888</item>
+        <item android:name="android:textStyle">bold</item>
+        <item android:name="android:layout_marginTop">@dimen/margin_top</item>
+    </style>
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <style android:name="text_regular">
+        <item android:name="android:textColor">@android:color/background_dark</item>
+        <item android:name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+</selector>

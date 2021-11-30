@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/screen"
+    tools:context=".register_screen.SignUpActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_layout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:hintTextColor="@color/navy_blue"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textEmailAddress" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <!--Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:passwordToggleEnabled="true"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/toggle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="260dp"
+        android:background="@drawable/pin_out_line"
+        android:checkedButton="@+id/offer"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/login_rbn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/togge_widget_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/register_rbn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/togge_widget_background"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Sign Up"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/button"
+        android:text="Register"
+        app:backgroundTint="@color/navy_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/auth_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

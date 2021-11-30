@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "419513047854",
+    "project_id": "e-police-management-syst-3aafa",
+    "storage_bucket": "e-police-management-syst-3aafa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419513047854:android:29a345f0bfe9787d6838bf",
+        "android_client_info": {
+          "package_name": "com.example.administrator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419513047854-aams6dctg74tnna953602sfr99en2h07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTwdFB0iRYrKht3Gm3IMNATa2RIYEg4u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419513047854-aams6dctg74tnna953602sfr99en2h07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419513047854:android:b877ce3dc974c1186838bf",
+        "android_client_info": {
+          "package_name": "com.example.epolicemanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419513047854-aams6dctg74tnna953602sfr99en2h07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTwdFB0iRYrKht3Gm3IMNATa2RIYEg4u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419513047854-aams6dctg74tnna953602sfr99en2h07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

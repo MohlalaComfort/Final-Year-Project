@@ -1,0 +1,3 @@
+rootProject.name = "E Police Management System"
+include ':app'
+include ':administrator'
