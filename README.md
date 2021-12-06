@@ -1,6 +1,6 @@
 # Final-Year-Project
 
-Title: Police Management System
+Title: E-Police Management System
 
 ## Proposal
 - LINK: [Proposal.docx](https://github.com/MohlalaComfort/Group-Project-2021/files/6330542/Proposal.docx)
